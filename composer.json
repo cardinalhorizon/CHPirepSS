@@ -1,0 +1,31 @@
+{
+    "name": "VENDOR/chpirepss-module",
+    "type": "phpvms-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\CHPirepSS\\Providers\\AppServiceProvider",
+                "Modules\\CHPirepSS\\Providers\\EventServiceProvider",
+                "Modules\\CHPirepSS\\Providers\\RouteServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CHPirepSS\\": "."
+        }
+    }
+}

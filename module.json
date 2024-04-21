@@ -1,0 +1,16 @@
+{
+    "name": "CHPirepSelfService",
+    "alias": "chpirepss",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CHPirepSS\\Providers\\AppServiceProvider",
+        "Modules\\CHPirepSS\\Providers\\EventServiceProvider",
+        "Modules\\CHPirepSS\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
